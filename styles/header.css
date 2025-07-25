@@ -34,7 +34,7 @@
   .middle-section {
     margin-right: 37px;
     flex: 1;
-    max-width: 550px;
+    max-width: 600px;
     display: flex;
     align-items: center;
 
@@ -134,7 +134,7 @@
   }
 
   .right-section {
-    width: 275px;
+    width: 225px;
     display: flex;
     align-items: center;
     justify-content: space-between;
