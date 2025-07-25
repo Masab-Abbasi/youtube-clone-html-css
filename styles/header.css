@@ -214,3 +214,39 @@
     height: 28px;
     border-radius: 13px;
   }
+
+@media (max-width: 768px) {
+  .right-section {
+    width: auto; 
+    flex-wrap: wrap; 
+    justify-content: flex-end;
+    gap: 10px;
+    margin-right: 10px;
+  }
+
+  .upload-icon,
+  .youtube-app-icon,
+  .notifications-icon {
+    height: 20px;
+  }
+
+  .id-logo {
+    height: 26px;
+    width: 26px;
+    border-radius: 50%;
+  }
+
+  .notification-counter {
+    font-size: 9px;
+    padding: 2px 4px;
+    top: -4px;
+    right: -4px;
+  }
+
+  
+  .upload-icon-container .tooltip,
+  .youtube-app-icon-container .tooltip,
+  .notification-icon-container .tooltip {
+    display: none;
+  }
+}
